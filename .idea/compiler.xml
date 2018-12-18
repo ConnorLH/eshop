@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eshop-config" />
+        <module name="eshop-data-aggr" />
+        <module name="eshop-data-link" />
+        <module name="eshop-data-sync" />
+        <module name="eshop-eureka" />
+        <module name="eshop-gateway" />
+        <module name="eshop-greeting" />
+        <module name="eshop-inventory" />
+        <module name="eshop-monitor" />
+        <module name="eshop-price" />
+        <module name="eshop-product" />
+        <module name="eshop-user" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

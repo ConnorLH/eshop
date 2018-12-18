@@ -1,0 +1,7 @@
+server:
+  port: 8767
+spring:
+  profiles:
+      active: dev
+  application:
+    name: eshop-data-link

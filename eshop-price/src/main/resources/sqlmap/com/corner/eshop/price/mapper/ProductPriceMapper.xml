@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.corner.eshop.price.mapper.ProductPriceMapper">
+  <resultMap id="BaseResultMap" type="com.corner.eshop.price.entity.ProductPrice">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="value" jdbcType="VARCHAR" property="value" />
+    <result column="product_id" jdbcType="INTEGER" property="productId" />
+  </resultMap>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from product_price
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.corner.eshop.price.entity.ProductPrice">
+    insert into product_price (id, `value`, product_id
+      )
+    values (#{id,jdbcType=INTEGER}, #{value,jdbcType=VARCHAR}, #{productId,jdbcType=INTEGER}
+      )
+  </insert>
+  <update id="updateByPrimaryKey" parameterType="com.corner.eshop.price.entity.ProductPrice">
+    update product_price
+    set `value` = #{value,jdbcType=VARCHAR},
+      product_id = #{productId,jdbcType=INTEGER}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select id, `value`, product_id
+    from product_price
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <select id="selectAll" resultMap="BaseResultMap">
+    select id, `value`, product_id
+    from product_price
+  </select>
+</mapper>

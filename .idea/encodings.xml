@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eshop-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eshop-data-aggr" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eshop-data-link" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eshop-data-sync" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eshop-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eshop-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eshop-greeting" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eshop-inventory" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eshop-monitor" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eshop-price" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eshop-product" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eshop-user" charset="UTF-8" />
+  </component>
+</project>
